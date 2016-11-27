@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<script src="./gameOfLife.js"></script>
+		<script src="./gameOfLifeGraphics.js"></script>
+		<script src="./presetGrids.js"></script>
+		<style>
+			table{
+				border-collapse:collapse;
+				padding:0px;
+				margin:0px;
+			}
+			td{
+				width:5px;
+				height:5px;
+				margin:0px;
+				padding:0px;
+				border:1px black;
+			}
+			button{
+				margin:10px;
+			}
+		</style>
+		<title>Game of Life</title>
+	</head>
+	<body onload = "init(document.getElementById('result'))">
+		<div id = result>
+		</div>
+	</body>
+</html>
